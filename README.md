@@ -1,12 +1,18 @@
 # Stocks
-Using API requests and Python class structures to facilitate stock-related analysis
 
-I have *quite a few* notebooks dedicated to building out my own stock-analysis functions using the IEX CLOUD api and pandas datareader. I hope to salvage my 'find_gold' trend reversal function.
-
-But, as I've gotten a bit more familiar and comfortable with Python itself; my work has improved. Everything I've learned about the `class` object in Python is manifesting in this one notebook --
+February 2022
 
 IN THIS REPO:
 -------------
-- Check out the Stock Objects File. I try to describe a bit about where I'm at in terms of building my own **virtual-reality** stock portfolio. 
- - class inheritance/inter-operational structure using the `yfinance` API
+- Check out the `Understanding Options Contracts.ipynb` File, which describes three `class` objects and my attempts at
+-  an inheritance/inter-operational structure using the `yfinance` API; plenty of `@property.setters` and conditional logic.
+
+- `functions.py` describes the culmination of my efforts in October and November to use the IEX CLOUD `json` API; 
+    - parsing data from multiple endpoints; batch requests;
+    - plotting trend reversals (`find_gold()`) and bollinger bands; etc.
+    - `chunks` to split API batches
+
+
+-- # TODO : implement into it's own package! Of course. I've left things as they are for now in order to close up work on my Capstone-Rework project.
+-- 
  
